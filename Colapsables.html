@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es-mx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Texto colapsable</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Texto colapsable</h1>
+        <p>Texto especial que puede desaparecer cuando se le indique.</p>
+        <h2>Colapsable básico:</h2>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#ejemplo">Click Aquí</button>
+        <div id="ejemplo" class="collapse">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit officia doloremque, beatae asperiores magnam delectus numquam consectetur placeat eligendi vel hic voluptate neque laborum fugiat commodi, labore eum aut voluptates!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veniam commodi hic aut praesentium dicta, et quibusdam. Magnam laboriosam laborum voluptatibus voluptate porro, autem assumenda, consequuntur aliquam distinctio quae voluptates!
+        </div>
+        <br><br>
+        <h2>Colapsable básico invertido:</h2>
+        <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#ejemplo2">Click Aquí</button>
+        <div id="ejemplo2" class="collapse show">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit officia doloremque, beatae asperiores magnam delectus numquam consectetur placeat eligendi vel hic voluptate neque laborum fugiat commodi, labore eum aut voluptates!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam veniam commodi hic aut praesentium dicta, et quibusdam. Magnam laboriosam laborum voluptatibus voluptate porro, autem assumenda, consequuntur aliquam distinctio quae voluptates!
+        </div>
+
+        <hr>
+        <h2>Acordeón de colapsables:</h2>
+        <div id="accordion">
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                        Collapsible Group Item #1
+                    </a>
+                </div>
+                <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. At maxime, saepe. Quos, officia fuga nemo obcaecati facilis repellat similique, sed hic fugit recusandae qui! Vero, libero. Incidunt cumque itaque deserunt!
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                        Collapsible Group Item #2
+                    </a>
+                </div>
+                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, quos perspiciatis at beatae, praesentium aut tenetur neque commodi velit distinctio delectus doloremque assumenda aperiam officia quam dolor maiores dolorum voluptatum.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                        Collapsible Group Item #3
+                    </a>
+                </div>
+                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita odio mollitia, illum voluptate ullam soluta, ipsam enim dignissimos nobis quisquam harum sunt ipsa nostrum repellendus! Aliquid illo animi delectus assumenda.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
