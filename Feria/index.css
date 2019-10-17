@@ -14,6 +14,28 @@
 
 }
 
+body{
+    background-color: aliceblue;
+}
+#artistas p{
+    color: black;
+
+}
+
+#artistas img{
+    width: 200.0px;
+    height: auto;
+}
+
+#lugar-fecha img{
+    max-width: 100%;
+}
+
+#lugar-fecha {
+    background-color: #2E53B7;
+    color: white;
+}
+
 #carrusel .overlay{
     position: absolute;
     top: 0;
